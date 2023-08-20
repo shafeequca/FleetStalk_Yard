@@ -240,3 +240,9 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+
+# ignore all directories with the name bin
+bin/
+
+# ignore all directories with the name obj
+obj/
