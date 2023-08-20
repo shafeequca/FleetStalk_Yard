@@ -81,6 +81,7 @@ namespace FleetStalk_Yard
         private void btnShow_Click(object sender, EventArgs e)
         {
             crystalReportViewer1.Visible = false;
+
             if (cboTransporter.SelectedIndex == -1)
             {
                 MessageBox.Show("Please select a transporter");
